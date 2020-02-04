@@ -23,8 +23,18 @@
     - quartile
     - percentile
     - IQR (interquartile range) is Q3 - Q1 (75th percentile - 25th percentile)
-    - Variance (1/n)*∑(xi−μ)2
     - Standard Deviation = sqrt(variance)
     - Skew
+    <!-- - Variance (1/n)*∑(xi−μ)2 -->
 
-    
+## Measures of Central Tendency
+
+- Mean: `sum(numbers) / len(numbers)`
+- Expected Value is similar to the average, except that each value is eighted by its probability.
+- Median: the center or middle value. When there are an even number of data points, the median is the average of the two middle points.
+- Mode is the most frequently occuring value
+- Bi-Modal is when two values tie for the mode.
+- min
+- max
+- range is the difference between the max and the min
+- A Quantile is a distribution of values cut into a number of equally sized continuous intervals
